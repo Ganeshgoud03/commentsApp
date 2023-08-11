@@ -27,3 +27,176 @@
 }
 
 /* Write your CSS here */
+@media (max-width: 576px) {
+  .list-item {
+    font-family: Roboto;
+    border-bottom: 2px solid #cbd2d9;
+  }
+
+  .comment-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .initial-container {
+    color: #fff;
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .name-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .head {
+    margin-right: 20px;
+    color: #334155;
+    font-size: 20px;
+  }
+
+  .p2 {
+    color: #94a3b8;
+    font-size: 12px;
+  }
+
+  .p3 {
+    color: #64748b;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+
+  .like-delete-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .like-container {
+    display: flex;
+  }
+
+  .like-btn {
+    border: none;
+    background-color: transparent;
+  }
+
+  .like-img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .p4 {
+    color: #7e858e;
+    font-size: 16px;
+  }
+
+  .liked-p4 {
+    color: #0ea5e9;
+    font-size: 20px;
+  }
+
+  .delete-btn {
+    border: none;
+    background-color: transparent;
+  }
+
+  .delete-img {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .list-item {
+    font-family: Roboto;
+    border-bottom: 2px solid #cbd2d9;
+  }
+
+  .comment-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .initial-container {
+    color: #fff;
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .name-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .head {
+    margin-right: 20px;
+    color: #334155;
+    font-size: 20px;
+  }
+
+  .p2 {
+    color: #94a3b8;
+    font-size: 12px;
+  }
+
+  .p3 {
+    color: #64748b;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+
+  .like-delete-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .like-container {
+    display: flex;
+  }
+
+  .like-btn {
+    border: none;
+    background-color: transparent;
+  }
+
+  .like-img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .p4 {
+    color: #7e858e;
+    font-size: 16px;
+  }
+
+  .liked-p4 {
+    color: #0ea5e9;
+    font-size: 20px;
+  }
+
+  .delete-btn {
+    border: none;
+    background-color: transparent;
+  }
+
+  .delete-img {
+    height: 20px;
+    width: 20px;
+  }
+}
